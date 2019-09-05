@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a22b447-b776-4028-9afb-a380759ab52e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/in/spark/sql/JSONUDFWrappedArrayTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/in/spark/sql/JSONUDFWrappedArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/in/spark/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/in/spark/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/in/spark/model/Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/in/spark/model/Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/in/spark/model/Profile_.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/in/spark/model/Profile_.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/in/spark/sql/JSONBeanTransformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/in/spark/sql/JSONBeanTransformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/in/spark/sql/JSONTransofrmation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/in/spark/sql/JSONTransofrmation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/spark/sql/JSONBeanTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/spark/sql/JSONBeanTransformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/MultiJsonSeparator.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/in/spark/sql/JSONSeparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/card.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/card.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONBeanTransformation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="36">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +29,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/card.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONTransofrmation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/MultiJsonSeparator.json">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="66" />
+              <caret column="291" selection-start-column="286" selection-end-column="291" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONSeparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/resources/profile.json">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="290" selection-start-column="290" selection-end-column="290" />
+              <caret column="204" selection-end-column="290" />
             </state>
           </provider>
         </entry>
@@ -74,10 +107,13 @@
         <option value="$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java" />
         <option value="$PROJECT_DIR$/src/in/spark/sql/JSONBeanTransformation.java" />
         <option value="$PROJECT_DIR$/resources/profile.json" />
+        <option value="$PROJECT_DIR$/resources/MultiJsonSeparator.json" />
+        <option value="$PROJECT_DIR$/src/in/spark/sql/JSONSeparator.java" />
+        <option value="$PROJECT_DIR$/resources/card.json" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -135,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567694960212" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567708440394" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -150,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JSONSeparator">
     <configuration name="JSONBeanTransformation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.spark.sql.JSONBeanTransformation" />
       <module name="JavaSparkProject" />
@@ -164,8 +200,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONSeparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.spark.sql.JSONSeparator" />
+      <module name="JavaSparkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONTransofrmation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.spark.sql.JSONTransofrmation" />
+      <module name="JavaSparkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONUDFWrappedArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="in.spark.sql.JSONUDFWrappedArrayTest" />
+      <module name="JavaSparkProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.spark.sql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JSONSeparator" />
+        <item itemvalue="Application.JSONTransofrmation" />
+        <item itemvalue="Application.JSONUDFWrappedArrayTest" />
         <item itemvalue="Application.JSONBeanTransformation" />
       </list>
     </recent_temporary>
@@ -184,7 +262,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -224,6 +302,12 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -242,24 +326,55 @@
     <entry file="file://$PROJECT_DIR$/resources/profile.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="290" selection-start-column="290" selection-end-column="290" />
+          <caret column="204" selection-end-column="290" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONBeanTransformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="36">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/resources/card.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONTransofrmation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/MultiJsonSeparator.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="66" />
+          <caret column="291" selection-start-column="286" selection-end-column="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONUDFWrappedArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/in/spark/sql/JSONSeparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
